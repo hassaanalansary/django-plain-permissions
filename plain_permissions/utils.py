@@ -7,7 +7,7 @@ from django.contrib.auth.models import Permission, _user_has_perm
 from django.core.exceptions import PermissionDenied
 from django.db.models import Q
 
-from plain_permissions import permissions_settings
+from plain_permissions.settings import permissions_settings
 from plain_permissions.apps import PermissionsConfig
 
 
@@ -61,7 +61,6 @@ def custom_has_perm(user, perm: str, obj=None) -> bool:
     assumed to have permission in general. If an object is provided, check
     permissions for that object.
     """
-    print("MONKEYYYYYYYYYYYYY")
     perm = get_permission_full_name(perm)
 
     # Active superusers have all permissions.

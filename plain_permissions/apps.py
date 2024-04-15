@@ -6,7 +6,7 @@ class PermissionsConfig(AppConfig):
     name = "plain_permissions"
 
     def ready(self):
-        from plain_permissions import permissions_settings
+        from plain_permissions.settings import permissions_settings
         from plain_permissions.signal_handlers import sync_permissions
 
         if permissions_settings.SYNC_PERMISSIONS_POST_MIGRATE:
