@@ -20,7 +20,7 @@ Adding django-plain-permissions to your Django application
 -----------------------------------------------------
 
 To use django-plain-permissions in your application,
-add ``'plain-permissions'`` to your project's ``INSTALLED_APPS`` ``settings.py``
+add ``'plain_permissions'`` to your project's ``INSTALLED_APPS`` ``settings.py``
 
 if whenever you change the permissions you need to run the following command to apply the changes to the database
 
