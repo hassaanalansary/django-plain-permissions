@@ -7,8 +7,8 @@ from django.contrib.auth.models import Permission, _user_has_perm
 from django.core.exceptions import PermissionDenied
 from django.db.models import Q
 
-from plain_permissions.settings import permissions_settings
 from plain_permissions.apps import PermissionsConfig
+from plain_permissions.settings import permissions_settings
 
 
 def check_permission(user, perm: str) -> None:

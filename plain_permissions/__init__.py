@@ -2,5 +2,5 @@
 then run manage.py migrate or manage.py sync_permissions to sync your PERMISSIONS
 """
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
