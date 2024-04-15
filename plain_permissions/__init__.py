@@ -4,5 +4,3 @@ then run manage.py migrate or manage.py sync_permissions to sync your PERMISSION
 
 __version__ = "0.0.1"
 
-
-from plain_permissions.settings import permissions_settings

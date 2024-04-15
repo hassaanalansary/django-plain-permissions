@@ -8,7 +8,6 @@ from plain_permissions.utils import check_permission
 class TestUtils(TestCase):
     def test_check_permission_should_not_raise_if_user_has_permission(self):
         user = User.objects.create_user(username="test", password="test")
-        print(Permission.objects.values_list("content_type__app_label"))
         perm = Permission.objects.get(
             content_type__app_label="plain_permissions", content_type__model="permission", codename="disable_user"
         )
