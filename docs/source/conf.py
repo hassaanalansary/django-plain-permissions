@@ -10,9 +10,6 @@ import os
 import sys
 from datetime import date
 
-from plain_permissions import __version__
-
-
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -21,6 +18,7 @@ from plain_permissions import __version__
 
 # Add sources folder
 sys.path.insert(0, os.path.abspath("../../"))
+from plain_permissions import __version__
 
 # -- Project information -----------------------------------------------------
 
