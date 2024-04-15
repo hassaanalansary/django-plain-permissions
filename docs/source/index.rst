@@ -88,7 +88,6 @@ Contents
 
    installation
    usage
-   internals
 
 
 Contribute to django-plain-permissions
